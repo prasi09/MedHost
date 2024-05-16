@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    font-size: large;
+    background-image:url('../images/default_background.webp');
+    background-repeat:no-repeat;
+    /* normally picture ko size anusar web page ma pic repeat bhayera aauxa 2 3 4 5 ota tara yo garda aauta matra aauxa */
+    background-attachment:fixed;
+    /* yesle fixed huda chai background chai move hudainaa */
+    background-size:100% 100%;
+    /* background size ma cover garda chai aafai adjust hunxaa but 100% 100% garda chai purai picture nai background ma aauxa */
+}
+header {
+  height: 70px;
+  width: 100%;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  position: sticky;
+  z-index: 100;
+  box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
+  display:block;
+  justify-content: space-between;
+  align-items: center;
+  }
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(16, 47, 184);
+  }
+  
+  .icn {
+  height: 45px;
+  }
+  .menuicn {
+  cursor: pointer;
+  }
+  
+  .message,
+  .logosec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .logosec {
+    gap: 60px;
+    }
+.logout
+{
+  margin-left: auto;
+}
+.logosec .logout .log
+{
+  align-content: center;
+  padding-left: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(7, 57, 118);
+}
+i
+{
+  
+  font-size:30px;
+}
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0px;
+    display: inline-block;
+  }
+  
+.container{
+    width: 40%;
+    border-radius:5px;
+    background: rgba(122, 141, 180, 0.3);
+    margin: 5% 0% 0% 25%;
+    padding: 50px 50px;
+    color: #0a0a0a;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+    min-height: 50%;
+}
+h1{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.row{
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: right;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.enter-btn{
+    margin: 0px auto 20px;
+    text-align:center;
+    width: 30%;
+    display: block;
+    outline: none;
+    padding: 10px;
+    border: 2px solid rgb(26, 63, 127);
+    cursor: pointer;
+    background: rgb(92, 126, 151);
+    font-size: 16px;
+    float:center;
+}
+.reg-btn
+{
+  text-align: center;
+  color:navy;
+}

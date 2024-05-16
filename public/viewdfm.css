@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+    margin-top: 90px;
+    padding-left: 6%;
+    font-size: large;
+    background-image:url('../images/default_background.webp');
+    background-repeat:no-repeat;
+    /* normally picture ko size anusar web page ma pic repeat bhayera aauxa 2 3 4 5 ota tara yo garda aauta matra aauxa */
+    background-attachment:fixed;
+    /* yesle fixed huda chai background chai move hudainaa */
+    background-size:100% 100%;
+    /* background size ma cover garda chai aafai adjust hunxaa but 100% 100% garda chai purai picture nai background ma aauxa */
+}
+.container
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top:30px;
+}
+.tbl {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  /* margin-left: 20px; */
+}
+
+.tbl td, .tbl th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tbl tr:nth-child(even){background-color: #f2f2f2;}
+
+.tbl tr:hover {background-color: #ddd;}
+
+.tbl th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #38bc8c;
+  color: white;
+}
+h3
+{
+    margin-top:40px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+table 
+{
+    border: 1px solid #796e6e;
+    border-collapse:initial;
+    width: 80%;
+    padding:35px;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.25);;
+}
+.pid,.did,.mid,.fid
+{
+    background-color: aliceblue;
+}
+  th{
+    text-align: left;
+    padding: 8px 8px 8px 8px;
+    border-bottom: 1px solid #8f8c8c;
+  }
+  td {
+    text-align: left;
+    padding: 8px 8px 8px 20px;
+    border-bottom: 1px solid #8f8c8c;
+  }
+  
+  tr:nth-child(odd){background-color: #44dda57e;}
